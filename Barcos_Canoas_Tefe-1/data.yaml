@@ -1,0 +1,25 @@
+names:
+  - balsa
+  - barco
+  - bote-de-aluminio
+  - canoa
+  - canoa-rabeta
+  - chuva
+  - flutuante
+  - fumaca-queimada
+  - lancha-rapida
+nc: 9
+
+# seção 'roboflow' pode ficar, mas não afeta o YOLO
+roboflow:
+  license: CC BY 4.0
+  project: barcos_canoas_tefe-w1ibe
+  url: https://universe.roboflow.com/unip/barcos_canoas_tefe-w1ibe/dataset/1
+  version: 1
+  workspace: unip
+
+# use caminhos relativos ao próprio data.yaml
+train: ./train/images
+val:   ./valid/images
+# test: ./test/images   # só descomente se essa pasta existir
+

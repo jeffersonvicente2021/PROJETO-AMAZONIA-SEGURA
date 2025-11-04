@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+data_events/
+*.mp4
+*.jpg
+*.json
+events.db
+.env
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dados e relatórios
+data_events/
+reports/
+*.csv
+*.pdf
+*.db
+
+# Pesos e modelos
+*.pt
+*.onnx
+
+# Variáveis de ambiente
+.env
+*.env
