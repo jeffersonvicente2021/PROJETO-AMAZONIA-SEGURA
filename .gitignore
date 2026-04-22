@@ -26,3 +26,5 @@ reports/
 # Variáveis de ambiente
 .env
 *.env
+.env.local
+.env.*.local
