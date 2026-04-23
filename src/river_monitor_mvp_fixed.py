@@ -14,9 +14,9 @@ import subprocess, shutil  # opcional (recompressão com ffmpeg)
 # =================== CONFIG ===================
 @dataclass
 class Config:
-    IP: str = "192.168.100.251"
-    USER: str = "admin"
-    PASSWORD: str = "S3lv409052021@@"  # ideal: ler de variável de ambiente
+    IP: str = "IP"
+    USER: str = "login"
+    PASSWORD: str = "Senha"  # ideal: ler de variável de ambiente
     PORT: int = 554
     CHANNEL_DET: str = "201"  # substream pra detecção
     CHANNEL_HQ: str = "101"   # mainstream pra snapshot/qualidade
