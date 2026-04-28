@@ -1,28 +1,33 @@
-.venv/
-__pycache__/
-data_events/
-*.mp4
-*.jpg
-*.json
-events.db
-.env
 # Python
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
+src/venv/
 
-# Dados e relatórios
-data_events/
-reports/
+# Environment
+.env
+*.env
+!.env.example
+
+# Runtime data and generated outputs
+data/events/
+data/reports/
+data/runs/
+data/models/
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.json
 *.csv
 *.pdf
 *.db
 
-# Pesos e modelos
+# Model exports
 *.pt
 *.onnx
-
-# Variáveis de ambiente
-.env
-*.env
