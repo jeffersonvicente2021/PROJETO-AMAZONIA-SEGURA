@@ -40,3 +40,9 @@ data/models/
 .env.*.local
 =======
 >>>>>>> feat/mvp-ajustes
+runs/
+embarcacoes-am/
+*.pt
+*.jpg
+*.png
+*.mp4
